@@ -13,8 +13,9 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <div>Contact</div>
-        <div>Blog</div>
+        <a href="https://bricavrac.com/contact/">Contact</a>
+        <a href="https://bricavrac.com/blog/">Blog</a>
+
         <Link to="/">
           <i class="fas fa-home"></i>
         </Link>
@@ -24,6 +25,8 @@ const Nav = () => {
 };
 
 export default Nav;
+
+//style
 
 export const NavContainer = styled.nav`
   background: rgb(255, 255, 255);
@@ -56,5 +59,11 @@ export const NavContainer = styled.nav`
     color: rgb(184, 208, 111);
     padding-right: 70px;
     font-size: 40px;
+  }
+  a {
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
   }
 `;

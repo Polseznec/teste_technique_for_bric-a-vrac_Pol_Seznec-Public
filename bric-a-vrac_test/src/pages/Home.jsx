@@ -59,7 +59,7 @@ export const HomeContainer = styled.div`
       rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: box-shadow 0.3s ease-out;
-    transition: box-shadow 0.3s ease-out;
+ƒ
     &:hover {
       box-shadow: rgba(240, 145, 37, 0.432) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
