@@ -5,8 +5,6 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Nav from "./components/Nav";
 
-import styled from "styled-components";
-
 function App() {
   return (
     <div className="App">
@@ -15,6 +13,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Login" component={Login} />
+          <Route component={Home} />
         </Switch>
       </BrowserRouter>
     </div>
@@ -23,4 +22,3 @@ function App() {
 
 export default App;
 
-export const AppContainer = styled.div``;

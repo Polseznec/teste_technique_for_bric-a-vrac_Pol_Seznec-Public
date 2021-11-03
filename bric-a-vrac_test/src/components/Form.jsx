@@ -47,7 +47,7 @@ export const FormContainer = styled.div`
   justify-content: center;
   h1 {
     font-size: 35px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: whitesmoke;
   }
   form {
@@ -66,15 +66,20 @@ export const FormContainer = styled.div`
   }
   input {
     height: 30px;
+    border: none;
     border-radius: 5px;
     margin-top: 30px;
     background-color: rgb(226, 224, 224);
     box-shadow: rgba(0, 0, 0, 0.027) 0px 2px 4px 0px inset;
   }
-
+  div:nth-child(2) {
+   padding-right: 6px;
+   
+  }
   button {
     margin-top: 30px;
     cursor: pointer;
+    border: none;
     font-size: 30px;
     padding: 10px 40px;
     background-color: rgb(240, 146, 37);
